@@ -1,0 +1,58 @@
+body{
+background-color: #FFC300; 
+
+}
+
+
+
+h1, h5 {
+color: #FFC300;
+}
+
+
+div.container-fluid{
+	background-color: #222;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	padding-left: 23px;
+	padding-right: 23px;
+
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("morte.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.container{
+	width: 100%;
+	background-color: #222;
+	color: #E6B000;
+}
